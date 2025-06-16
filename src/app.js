@@ -7,7 +7,7 @@ import {
 	verifyKeyMiddleware,
 } from "discord-interactions";
 import express from "express";
-import { DiscordRequest, getRandomEmoji } from "./utils.js";
+import { getRandomEmoji } from "./utils.js";
 
 // Create an express app
 const app = express();
