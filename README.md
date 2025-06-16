@@ -6,12 +6,14 @@ A discord app to make daily todo lists in a server.
 
 - node >= 18
 
-Run the application serv with:  
+Run the application service with:
+
 ```
 npm run start
-```  
+```
 
 App commands are registered by using Discords bulk update API:
+
 ```
 npm run register
 ```
